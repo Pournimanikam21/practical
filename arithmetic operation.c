@@ -50,7 +50,7 @@ int main()
          printf("enter the num1 and num2");
          scanf("%d%d",&num1,&num2);
          remainder=num1%num2;
-         printf("the remainder of %f and %f is %f",num1,num2,remainder);
+         printf("the remainder of %d and %d is %d",num1,num2,remainder);
          break;
         }
   default:
