@@ -56,8 +56,16 @@ class Fraction
 };
 int main()
 {
-  Fraction f1(1, 2);
-  Fraction f2(1, 4);
+    int n1, d1, n2, d2;
+
+    cout << "Enter numerator and denominator for Fraction 1: ";
+    cin >> n1 >> d1;
+
+    cout << "Enter numerator and denominator for Fraction 2: ";
+    cin >> n2 >> d2;
+
+  Fraction f1(n1, d1);
+  Fraction f2(n2, d2);
   Fraction result;
   
   cout << "Fraction 1: ";
